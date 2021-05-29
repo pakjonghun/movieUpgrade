@@ -1,6 +1,13 @@
 @import "reset.css";
 @import "header.css";
 @import "main.css";
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+*,
+.contents {
+  font-family: "Gamja Flower", cursive;
+  box-sizing: border-box;
+}
 
 button {
   background-color: #2c8dff;
@@ -18,9 +25,6 @@ button:active {
   opacity: 0.7;
 }
 
-* {
-  box-sizing: border-box;
-}
 body {
   line-height: 1;
   margin: 10px;
