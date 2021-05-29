@@ -1,0 +1,53 @@
+.posting__container {
+  margin: auto;
+  width: 50%;
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+  padding: 1em;
+  border: 2px solid gray;
+  display: none;
+}
+
+.posting__container,
+.posting__input {
+  border-radius: 0.3rem;
+}
+
+.posting__column {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.posting__input {
+  padding: 0.5em 0.7em;
+  border: 1px solid lightgray;
+  font-size: 0.8em;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 700px) {
+  .posting__container {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .posting__container {
+    font-size: 1.8rem;
+  }
+}
+
+.posting__container button {
+  padding: 0.7em 1.5em;
+  font-size: 1.3rem;
+}
+
+.show {
+  display: block;
+}

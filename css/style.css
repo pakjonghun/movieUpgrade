@@ -2,6 +2,7 @@
 @import "header.css";
 @import "main.css";
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+@import "postingBox.css";
 
 *,
 .contents {

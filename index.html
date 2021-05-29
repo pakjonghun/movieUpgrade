@@ -24,8 +24,26 @@
           적어볼게요길게 적어볼게요길게 적어볼게요길게 적어볼게요
         </p>
       </div>
-      <button>Learn More</button>
+      <button id="show__posting">Learn More</button>
     </header>
+
+    <section class="posting__container" id="posting__container">
+      <div class="posting__column">
+        <span class="title">URL입력</span>
+        <input type="text" class="posting__input" />
+      </div>
+      <div class="posting__column">
+        <span class="title">코멘트입력</span>
+        <textarea
+          name=""
+          class="posting__input"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <button id="posting__button">전송</button>
+    </section>
 
     <main class="main">
       <article class="main__card">
@@ -193,8 +211,7 @@
           <p>rnoonAfternoon</p>
         </div>
       </article>
-      
     </main>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
