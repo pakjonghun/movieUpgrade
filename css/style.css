@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+
+button {
+  background-color: #2c8dff;
+  border: none;
+  color: white;
+  padding: 0.3em 0.5em;
+  font-size: 0.7em;
+  border-radius: 0.2rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+  margin: 10px;
+}
