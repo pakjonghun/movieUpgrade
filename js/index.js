@@ -3,7 +3,7 @@ const posting__button = document.querySelector("#posting__button");
 const show__postingBtn = document.querySelector("#show__posting");
 const main = document.querySelector("#main");
 
-document.addEventListener("domcontentloaded",function(){
+document.addEventListener("DOMContentLoaded",function(){
 getData();
 })
 
