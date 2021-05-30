@@ -4,7 +4,7 @@ const show__postingBtn = document.querySelector("#show__posting");
 const main = document.querySelector("#main");
 
 document.addEventListener("domcontentloaded",function(){
-
+getData();
 })
 
 
